@@ -1,0 +1,29 @@
+.productCard {
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	background-color: #001c240a;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out;
+	transform-origin: center;
+    will-change: transform;
+}
+
+.productCard:hover {
+	transform: scale(1.03);
+}
+
+.productCard img {
+	width: 100%;
+	aspect-ratio: 3 / 4;
+	object-fit: cover;
+	border-radius: 8px 8px 0 0;
+}
+
+.info {
+	padding: 1rem;
+}
+
+p {
+	margin: 5px;
+}

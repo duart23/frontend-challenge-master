@@ -1,0 +1,29 @@
+{
+  "printWidth": 120,
+  "trailingComma": "all",
+  "endOfLine": "auto",
+  "importOrder": [
+    "^react.*$",
+    "^@.*$",
+    "<THIRD_PARTY_MODULES>",
+    "api/(.*)",
+    "assets/(.*)",
+    "components/(.*)",
+    "generated/(.*)",
+    "helpers/(.*)",
+    "store/(.*)",
+    "storybook/(.*)",
+    "styles/(.*)",
+    "[.]/(.*)"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx", "**/*.scss", "**/*.css"],
+      "options": {
+        "singleQuote": true,
+        "tabWidth": 4,
+        "useTabs": true
+      }
+    }
+  ]
+}

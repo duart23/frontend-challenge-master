@@ -1,0 +1,14 @@
+.title {
+    padding-left: 3rem;
+    margin: 0;
+    font-size: 44px;
+}
+
+@media screen and (max-width: 758px) {
+
+    .title {
+        padding-left: 0.5rem;
+        margin: 0;
+        font-size: 44px;
+    }
+}

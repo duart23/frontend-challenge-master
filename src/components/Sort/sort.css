@@ -1,0 +1,19 @@
+.sort{
+    background-color: #001C240A;
+    border: 0;
+    font-weight: bolder;
+    padding: 10px 20px 10px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 758px) {
+    .sort{
+        background-color: #001C240A;
+        border: 0;
+        font-weight: bolder;
+        padding: 10px 20px 10px;
+        border-radius: 8px;
+        width: auto;
+    }
+
+}
